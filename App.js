@@ -16,7 +16,7 @@ update(e){
   render(){
     console.log('render');
     return <div>
-    <button onClick= {this.update}>{this.state.val}</button>
+    <div id="fish" onClick= {this.update}>{this.state.val}</div>
     <p> hello</p>
     </div>
 
